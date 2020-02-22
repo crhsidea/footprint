@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/Samuel/StudioProjects/flutterfire/packages/firebase_ml_vision/example/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml",
+            "outputFile": "/Users/prasannsinghal/Desktop/Projects/footprint/example/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml",
             "map": [
                 {
-                    "source": "/Users/Samuel/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.1.0.aar/b9f639a8d8ed2c202116e61c5f241063/res/values-nl/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "201",
-                        "endOffsets": "448"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1292",
-                        "endColumns": "201",
-                        "endOffsets": "1489"
-                    }
-                },
-                {
-                    "source": "/Users/Samuel/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/d60de40b007069471a19858c16c74908/res/values-nl/values.xml",
+                    "source": "/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/cce612c03ff31e0a353af401526dc765/res/values-nl/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/Users/Samuel/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/8c2c16f1f323de18a93922fdbab6143c/res/values-nl/values-nl.xml",
+                    "source": "/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.1.0.aar/859552fbb93e61ced0b85ae9e7ec256d/res/values-nl/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "201",
+                        "endOffsets": "448"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1292",
+                        "endColumns": "201",
+                        "endOffsets": "1489"
+                    }
+                },
+                {
+                    "source": "/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/aad3e22ee34595548f6663e18fc493ad/res/values-nl/values-nl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

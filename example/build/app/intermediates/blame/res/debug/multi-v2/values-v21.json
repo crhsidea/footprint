@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/Samuel/StudioProjects/flutterfire/packages/firebase_ml_vision/example/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "/Users/prasannsinghal/Desktop/Projects/footprint/example/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "/Users/Samuel/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/90e300e6fd1e90ded5355b4482bd2d21/res/values-v21/values-v21.xml",
+                    "source": "/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/9885924a42b0e021f986885bc6be93fa/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",
                         "startColumns": "4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/Samuel/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/8c2c16f1f323de18a93922fdbab6143c/res/values-v21/values-v21.xml",
+                    "source": "/Users/prasannsinghal/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/aad3e22ee34595548f6663e18fc493ad/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
