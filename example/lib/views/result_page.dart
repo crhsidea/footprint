@@ -38,6 +38,9 @@ class _ResultPageState extends State<ResultPage> {
   dynamic _scanResults;
   Detector _currentDetector = Detector.label;
   final ImageLabeler _imageLabeler = FirebaseVision.instance.imageLabeler();
+  String footprint = "Loading";
+  String name = "Loading";
+  String description = "Loading";
 
   @override
   void initState() {
@@ -212,7 +215,7 @@ class _ResultPageState extends State<ResultPage> {
                         colors: [Colors.purple,  Colors.white,Colors.white,Colors.purple,],
                       ),borderRadius: BorderRadius.circular(66)
                   ),
-                  child: Text("OBJECT NAME",
+                  child: Text(name,
                     style: TextStyle(
                         fontSize: 40.0
                     ),
@@ -230,14 +233,32 @@ class _ResultPageState extends State<ResultPage> {
                         colors: [Colors.purple, Colors.deepOrangeAccent],
                       ),borderRadius: BorderRadius.circular(30)
                   ),
-                  child: Text("CARBON FOOTPRINT",
+                  child: Text(footprint,
                     style: TextStyle(
                         fontSize: 29.0
                     ),
                   ),
                   alignment: Alignment(0.0, 0.0),
                 ),
-                Text("How to reduce Carbon Emmision?",
+                SizedBox(
+                  height: 15,
+                  width: 20,),
+                Container(
+                  height: 80,
+                  width: 120,
+                  decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        colors: [Colors.purple, Colors.deepOrangeAccent],
+                      ),borderRadius: BorderRadius.circular(30)
+                  ),
+                  child: Text(footprint,
+                    style: TextStyle(
+                        fontSize: 29.0
+                    ),
+                  ),
+                  alignment: Alignment(0.0, 0.0),
+                ),
+                Text(description,
                   style: TextStyle(fontWeight: FontWeight.bold,height: 3, fontSize: 20),),
                 Container(
                   margin: EdgeInsets.symmetric(vertical: 20.0),
