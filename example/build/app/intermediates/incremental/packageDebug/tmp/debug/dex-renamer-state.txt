@@ -1,4 +1,4 @@
-#Sat Feb 22 17:37:09 CST 2020
+#Sat Feb 22 18:58:17 CST 2020
 base.10=/Users/prasannsinghal/Desktop/Projects/footprint/example/build/app/intermediates/transforms/dexMerger/debug/19
 base.9=/Users/prasannsinghal/Desktop/Projects/footprint/example/build/app/intermediates/transforms/dexMerger/debug/9
 base.8=/Users/prasannsinghal/Desktop/Projects/footprint/example/build/app/intermediates/transforms/dexMerger/debug/16

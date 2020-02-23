@@ -3,7 +3,7 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:camera/camera.dart';
-import 'package:firebase_ml_vision_example/picture_scanner.dart';
+import 'package:firebase_ml_vision_example/api_client/api_client.dart';
 import 'package:flutter/material.dart';
 import 'package:path/path.dart' show join;
 import 'package:path_provider/path_provider.dart';
@@ -13,6 +13,9 @@ Future<void> main() async {
   // Ensure that plugin services are initialized so that `availableCameras()`
   // can be called before `runApp()`
   WidgetsFlutterBinding.ensureInitialized();
+
+
+  fetchAPIResult("macbook pro");
 
   // Obtain a list of the available cameras on the device.
   final cameras = await availableCameras();

@@ -16,6 +16,8 @@ Future<FootprintResult> fetchAPIResult(String val) async {
   int statusCode = response.statusCode;
   print(response.body);
   FootprintResult footprintResult = FootprintResult.fromJson(json.decode(response.body));
+
+
   return footprintResult;
 
 }

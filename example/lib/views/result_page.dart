@@ -3,6 +3,8 @@ import 'dart:async';
 import 'dart:io';
 
 
+import 'package:firebase_ml_vision_example/api_client/api_client.dart';
+import 'package:firebase_ml_vision_example/api_client/footprint_result.dart';
 import 'package:flutter/material.dart';
 import 'package:path/path.dart' show join;
 import 'package:path_provider/path_provider.dart';
@@ -128,9 +130,30 @@ class _ResultPageState extends State<ResultPage> {
     });
   }
 
-  CustomPaint _buildResults(Size imageSize, dynamic results) {
+  CustomPaint _buildResults(Size imageSize, dynamic results)  {
     CustomPainter painter;
 
+    List<String> names = [];
+
+    ImageLabel label = results[0];
+
+    name = label.text;
+    fetchAPIResult(name).then((value){
+      setState(() {
+        description = value.description;
+        footprint = value.value.toString();
+        String unit = "kg";
+        if (value.unit.toString() == "True"){
+          unit = "g";
+        }
+        footprint = footprint + unit;
+      });
+    });
+
+
+
+
+    print(results);
     switch (_currentDetector) {
       case Detector.label:
         painter = LabelDetectorPainter(_imageSize, results);
