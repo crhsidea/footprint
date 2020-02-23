@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Feb 22 18:58:20 CST 2020
+#Sat Feb 22 19:28:19 CST 2020
 56.path=lib/x86/libclassifier_jni.so
 5.base=/Users/prasannsinghal/Desktop/Projects/footprint/example/build/app/intermediates/transforms/dexMerger/debug/21
 42.base=/Users/prasannsinghal/Desktop/Projects/footprint/example/build/app/intermediates/transforms/dexMerger/debug/10

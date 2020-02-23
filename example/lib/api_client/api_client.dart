@@ -10,13 +10,12 @@ Future<FootprintResult> fetchAPIResult(String val) async {
 
   //{44201,14129,42101,42401,42602,44201,81102,85129,88101}
 
-  String url = 'http://10.62.196.168:5000/get_footprint?keyword='+val;
+  String url = 'http://172.20.10.4:5000/get_footprint?keyword='+val;
   Response response = await get(url);
   // sample info available in response
   int statusCode = response.statusCode;
   print(response.body);
   FootprintResult footprintResult = FootprintResult.fromJson(json.decode(response.body));
-
 
   return footprintResult;
 

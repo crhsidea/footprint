@@ -127,15 +127,10 @@ class _ResultPageState extends State<ResultPage> {
 
     setState(() {
       _scanResults = results;
+
     });
-  }
 
-  CustomPaint _buildResults(Size imageSize, dynamic results)  {
-    CustomPainter painter;
-
-    List<String> names = [];
-
-    ImageLabel label = results[0];
+    ImageLabel label = _scanResults[0];
 
     name = label.text;
     fetchAPIResult(name).then((value){
@@ -149,6 +144,14 @@ class _ResultPageState extends State<ResultPage> {
         footprint = footprint + unit;
       });
     });
+
+
+  }
+
+  CustomPaint _buildResults(Size imageSize, dynamic results)  {
+    CustomPainter painter;
+
+    List<String> names = [];
 
 
 
